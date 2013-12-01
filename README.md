@@ -12,10 +12,10 @@ Install and configure Neo4J to run a default database on localhost:7474, which s
 
 Then, install this app:
 
+    $ git clone the.url.com/to/your/fork/
+    $ cd /the-repo-dir/
     $ virtualenv env
     $ source env/bin/activate
-    $ git clone the.url.com/to/your/fork/`
-    $ cd /the-repo-dir/
     $ pip install -r requirements.txt
     $ python public_api.py
 
@@ -26,6 +26,7 @@ Browse to http://localhost:5000/api/v1/?callback= to see the generic response
 There are two additional routes currently:
 
 http://localhost:5000/api/vi/nodes/?callback=
+
 http://localhost:5000/api/vi/rels/?callback=
 
 Play with it and submit issues and ideas to the ticket tracker here.
